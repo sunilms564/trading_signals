@@ -3,11 +3,9 @@ Overview
 The TradeSignalAnalyzer project is designed to analyze stock data and generate trading signals based on specific conditions. It calculates overall profit and loss for each stock based on the generated signals and visualizes trading data and signal-related transactions.
 
 Setup and Execution Instructions
-Clone the Repository:
-
-
+Note
+This project does not utilize a PostgreSQL database. since I had faced problem in istalling software because of my old laptop Instead, the provided stock equities data is loaded directly within the Python script.
 git clone https://github.com/sunilms564/TradeSignalAnalyzer.git
-Install Dependencies:
 
 data/: Directory containing stock equities data files.
 scripts/: Directory containing Python scripts for analyzing stock data and generating trading signals.
@@ -20,8 +18,6 @@ Existing sell positions are closed if a crossover of the 5-day and 10-day moving
 Visualization
 The project uses matplotlib for visualizing trading data and signal-related transactions.
 
-Note
-This project does not utilize a PostgreSQL database. Instead, the provided stock equities data is loaded directly within the Python script.
 
 Contributing
 Contributions are welcome! Feel free to fork the repository and submit pull requests with any improvements or features.
